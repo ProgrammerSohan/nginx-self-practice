@@ -1,0 +1,10 @@
+h1{
+    background-color: pink;
+    color: aqua;
+
+}
+
+h1:hover{
+    background: orange;
+    color:blue;
+}
