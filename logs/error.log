@@ -5,3 +5,17 @@
 2024/10/06 19:10:29 [error] 10760#10964: OpenEvent("Global\ngx_reload_10392") failed (2: The system cannot find the file specified)
 2024/10/06 19:11:25 [notice] 7096#6020: signal process started
 2024/10/06 19:11:43 [error] 1064#8312: *1 CreateFile() "C:\nginx-1.26.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:90", referrer: "http://localhost:90/"
+2024/10/06 20:33:01 [emerg] 1904#12620: no "events" section in configuration
+2024/10/06 20:33:10 [emerg] 10068#3748: no "events" section in configuration
+2024/10/06 20:45:15 [notice] 1524#10936: signal process started
+2024/10/06 20:45:24 [crit] 11828#1956: *20 GetFileAttributesEx() "C:
+ginx-1.26.2\mysite" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7070"
+2024/10/06 20:45:25 [crit] 11828#1956: *21 CreateFile() "C:
+ginx-1.26.2\mysite/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7070", referrer: "http://localhost:7070/"
+2024/10/06 20:45:29 [crit] 11828#1956: *23 GetFileAttributesEx() "C:
+ginx-1.26.2\mysite" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7070"
+2024/10/06 20:45:29 [crit] 11828#1956: *24 CreateFile() "C:
+ginx-1.26.2\mysite/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7070", referrer: "http://localhost:7070/"
+2024/10/06 20:48:16 [notice] 4476#1468: signal process started
+2024/10/06 20:48:20 [error] 11564#2488: *26 CreateFile() "C:/nginx-1.26.2/mysite/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2024/10/06 20:48:58 [notice] 3656#2840: signal process started
