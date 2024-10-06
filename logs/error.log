@@ -1,0 +1,7 @@
+2024/10/06 10:44:12 [error] 1844#13556: *1 CreateFile() "C:\nginx-1.26.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/06 10:49:57 [notice] 11480#11464: signal process started
+2024/10/06 10:50:35 [error] 12232#10904: *4 CreateFile() "C:\nginx-1.26.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:90", referrer: "http://localhost:90/"
+2024/10/06 19:10:29 [notice] 10760#10964: signal process started
+2024/10/06 19:10:29 [error] 10760#10964: OpenEvent("Global\ngx_reload_10392") failed (2: The system cannot find the file specified)
+2024/10/06 19:11:25 [notice] 7096#6020: signal process started
+2024/10/06 19:11:43 [error] 1064#8312: *1 CreateFile() "C:\nginx-1.26.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:90", referrer: "http://localhost:90/"
